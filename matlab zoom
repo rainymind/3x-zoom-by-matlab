@@ -1,0 +1,14 @@
+% Read the image
+img = imread('input_image.jpg');
+
+% Triple the size of the image
+tripled_img = imresize(img, 3);
+
+% Display the original and tripled image
+subplot(1, 2, 1);
+imshow(img);
+title('Original Image');
+
+subplot(1, 2, 2);
+imshow(tripled_img);
+title('Tripled Image');
