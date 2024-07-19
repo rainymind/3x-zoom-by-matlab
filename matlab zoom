@@ -1,4 +1,4 @@
-% Read the image.0
+% Read the image
 img = imread('input_image.jpg');
 
 % Triple the size of the image
