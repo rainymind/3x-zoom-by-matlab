@@ -1,4 +1,4 @@
-% 000001
+% 01
 % Read the image
 img = imread('input_image.jpg');
 
